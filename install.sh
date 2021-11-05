@@ -66,4 +66,8 @@ sudo apt-add-repository contrib
 sudo apt update
 sudo apt install libavcodec-extra
 
+only for KDE
 
+#sudo add-apt-repository ppa:papirus/papirus
+#sudo apt update
+#sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
