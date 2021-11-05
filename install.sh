@@ -20,6 +20,11 @@ echo 'updating repos.....'
 sudo apt install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
+#snap craft#
+
+sudo apt update
+sudo apt install snapd
+sudo snap install core
 
 ##installing telegram##
 
