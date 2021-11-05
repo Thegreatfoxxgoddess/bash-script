@@ -48,21 +48,31 @@ sudo mv betterdiscordctl /usr/local/bin
 betterdiscordctl self-upgrade
 betterdiscordctl -i flatpak install
 
+echo 'better discord setup finished'
+
 echo 'installing chromium'
 
 flatpak install flathub org.chromium.Chromium
+
+echo 'installation finished'
 
 echo 'installing angelfish'
 
 flatpak install flathub org.kde.angelfish
 
+echo 'installation finished'
+
 echo 'installing Spotify'
 
 flatpak install flathub com.spotify.Client
 
+echo 'installation finished'
+
 echo 'installing vscode'
 
 flatpak install flathub com.visualstudio.code
+
+echo 'installation finished'
 
 ##additional codec##
 echo 'additional repo setup'
@@ -71,7 +81,9 @@ sudo apt-add-repository contrib
 sudo apt update
 sudo apt install libavcodec-extra
 
-only for KDE
+echo 'installation finished'
+
+##only for KDE##
 
 #sudo add-apt-repository ppa:papirus/papirus
 #sudo apt update
