@@ -16,3 +16,4 @@ sudo apt-get install git -y
 ##Additional Repos##
 
 echo 'updating repos.....'
+echo 'testing....'
