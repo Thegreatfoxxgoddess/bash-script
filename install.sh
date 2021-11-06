@@ -89,7 +89,7 @@ sudo apt install libavcodec-extra
 
 echo 'installation finished'
 
-sudo dpkg -i stremio.deb
+sudo dpkg -i package01.deb
 
 ##only for KDE##
 
