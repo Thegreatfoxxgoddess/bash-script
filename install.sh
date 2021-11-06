@@ -91,6 +91,10 @@ echo 'installation finished'
 
 sudo dpkg -i package01.deb
 
+echo 'cleaning up the mess....'
+
+sudo apt autoremove
+
 ##only for KDE##
 
 #sudo add-apt-repository ppa:papirus/papirus
