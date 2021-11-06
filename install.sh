@@ -56,6 +56,12 @@ flatpak install flathub org.chromium.Chromium
 
 echo 'installation finished'
 
+echo 'installing brave'
+
+sudo snap install brave
+
+echo 'installation finished'
+
 echo 'installing angelfish'
 
 flatpak install flathub org.kde.angelfish
@@ -82,6 +88,8 @@ sudo apt update
 sudo apt install libavcodec-extra
 
 echo 'installation finished'
+
+sudo dpkg -i stremio.deb
 
 ##only for KDE##
 
